@@ -48,12 +48,38 @@ body, html {
       border-color: black;
       border-width: 5px;
     }
-
-    .charSelected {
+    charSelected {
         background-color: red;
       display: none;
-      height: 50%;
-      width: 50%;
+      width: inherit;
+    color: white;
+    text-align: center;
+    z-index: 20;
+    }
+    #charSelOne {
+        background-color: red;
+      display: none;
+      width: inherit;
+    color: white;
+    text-align: center;
+    z-index: 20;
+
+    }
+
+    #charSelTwo {
+        background-color: red;
+      display: none;
+      width: inherit;
+    color: white;
+    text-align: center;
+    z-index: 20;
+
+    }
+
+    #charSelThree {
+        background-color: red;
+      display: none;
+      width: inherit;
         background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

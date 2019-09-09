@@ -9,7 +9,7 @@ $(".startScreen").click(function(){
 
 $(".charOne").click(function(){
     $(".charSelected").css("display", "block")
-    $(".charSelect").css("display", "none")
+    $(".charSelect").css("display", "block")
     
 })
 
@@ -18,7 +18,7 @@ $(".charTwo").click(function(){
     $(".charSelect").css("display", "block")
 })
 
-$(".charthree").click(function(){
+$(".charThree").click(function(){
     $(".charSelected").css("display", "block")
     $(".charSelect").css("display", "block")
 })
