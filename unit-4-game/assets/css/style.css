@@ -103,4 +103,5 @@ body, html {
      border-style:double;
      border-width: 5px;
      display: none;
+     height: 100%;
  }
