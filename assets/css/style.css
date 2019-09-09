@@ -48,7 +48,7 @@ body, html {
       border-color: black;
       border-width: 5px;
     }
-    charSelected {
+    .charSelected {
         background-color: red;
       display: none;
       width: inherit;
@@ -96,6 +96,11 @@ body, html {
       border-width: 5px;
 
   }
-  .row {
-      height: 120px;
-  }
+ .fight {
+     background-color: blue;
+     color: white;
+     border-color: white;
+     border-style:double;
+     border-width: 5px;
+     display: none;
+ }
