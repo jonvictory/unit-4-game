@@ -4,9 +4,72 @@ body, html {
   
   .bg {
     
-    background-image: url("assets\images\cityMap.jpg");
+    background-color: pink;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: none;
+  }
+  
+  .startScreen {
+      background-color: black;
+      display: block;
+      height: 100%;
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+
+  .charSelect {
+      background-color: green;
+      display: none;
+      height: 100%;
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+    .charOne {
+        border-style: dotted;
+      border-color: black;
+      border-width: 5px;
+    }
+    .charTwo {
+        border-style: dotted;
+      border-color: black;
+      border-width: 5px;
+    }
+    .charThree {
+        border-style: dotted;
+      border-color: black;
+      border-width: 5px;
+    }
+
+    .charSelected {
+        background-color: red;
+      display: none;
+      height: 50%;
+      width: 50%;
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    z-index: 20;
+
+    }
+      
+
+  .mapArea {
+      border-style: dotted;
+      border-color: green;
+      border-width: 5px;
+
+  }
+  .row {
+      height: 120px;
   }
